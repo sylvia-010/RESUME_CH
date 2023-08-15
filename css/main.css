@@ -122,6 +122,7 @@ html {
   font-size: 16px;
   margin: 0px 20px;
   text-align: justify;
+  line-height: 30px;
 }
 
 .right>.intro {
@@ -159,7 +160,7 @@ html {
 }
 
 .list_group_left1, .list_group_left2, .list_group_right1, .list_group_right2 {
-  background-color: #cfc6b778;
+  /* background-color: #cfc6b778; */
   border-radius: 5px;
   height: 70px;
   margin-bottom: 15px;
@@ -169,21 +170,21 @@ html {
   color: #563C4B;
   font-weight: bold;
   font-size: 16px;
-  margin: 10px 0 0 10px;
+  margin: 0 0 0 10px;
   padding-top: 10px;
 }
 
 .list_group p {
   color: #563C4B;
   font-size: 12px;
-  padding-left: 10px;
+  padding-left:6px;
   padding-top: 10px;
 }
 
 .workexp, .works {
   background-color: #fff;
   box-shadow: 3px 3px 3px #cfc6b778;
-  height: 300px;
+  height: 400px;
   margin: 10px 20px ;
   width: 100%;
   max-width: 390px;
@@ -226,9 +227,14 @@ html {
   .right{
     width: 100%;
     margin-top: 25px;
+    .about {
+      height: 280px;
+    }
 
   }
-
+  .workexp {
+    height: 515px;
+  }
   .workexp, .works {
     margin-left: 20px;
     max-width: 270px;
@@ -248,9 +254,9 @@ html {
     }
   }
   footer {
-    padding-top: 125px;
+    padding-top: 200px;
     .footer {
-      height: 385px;
+      height: 490px;
     }
     
   }
