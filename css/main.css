@@ -42,10 +42,12 @@ html {
 }
 
 .left>.selfie{
-  height: 250px;
-  background-color: #cfc6b778;
+  /* height: 250px;
+  background-color: #cfc6b778; */
   margin-right: 30px;
-  margin-top: 60px;
+  margin-top: 40px;
+  box-shadow: 3px 3px 3px #cfc6b778;
+  
 }
 
 .left>.info {
