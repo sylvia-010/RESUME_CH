@@ -62,11 +62,17 @@ html {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
+  padding-left: 12px;
 }
-
+.info ul>li>div{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  /* padding-left: 20px; */
+}
 .info ul>li svg {
   display: inline-block;
-  padding-left: 20px;
 }
 
 .info ul>li h4 {
