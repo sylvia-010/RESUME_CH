@@ -1,38 +1,38 @@
 html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-  }
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
-  /* 底層 */
-   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 底層 */
+
 .main {
-  border: 3px solid #e9e4dd; 
+  border: 3px solid #e9e4dd;
   background-color: white;
   margin: 0 auto;
   width: 100%;
   /* height: fit-content; */
-  max-width: 780px; 
+  max-width: 780px;
 }
 
 .group {
-    display: flex;
-    margin:50px 30px;
-  
+  display: flex;
+  margin: 50px 30px;
+
 }
 
 /* 左邊區塊 */
@@ -41,13 +41,13 @@ html {
   width: 40%;
 }
 
-.left>.selfie{
+.left>.selfie {
   /* height: 250px;
   background-color: #cfc6b778; */
   margin-right: 30px;
   margin-top: 40px;
   box-shadow: 3px 3px 3px #cfc6b778;
-  
+
 }
 
 .left>.info {
@@ -63,14 +63,17 @@ html {
   flex-direction: column;
   padding-top: 10px;
   padding-left: 12px;
+
 }
-.info ul>li>div{
+
+.info ul>li>div {
   display: inline-block;
   width: 30px;
   height: 30px;
   text-align: center;
   /* padding-left: 20px; */
 }
+
 .info ul>li svg {
   display: inline-block;
 }
@@ -103,13 +106,13 @@ html {
   line-height: 38px;
 }
 
-  /* 右邊區塊  */
+/* 右邊區塊  */
 
-.right{
+.right {
   width: 60%;
 }
 
-.right>.about{
+.right>.about {
   height: 240px;
   background-color: #fff;
   box-shadow: 3px 3px 3px #cfc6b778;
@@ -120,7 +123,7 @@ html {
   font-weight: bold;
   font-size: 24px;
   padding: 13px 0;
-  margin-left: 20px ;
+  margin-left: 20px;
 }
 
 .right>.about p {
@@ -137,7 +140,9 @@ html {
   margin-bottom: -195px;
 }
 
-.right>.intro>.engage h2, .workexp h2, .works h2 {
+.right>.intro>.engage h2,
+.workexp h2,
+.works h2 {
   color: #563C4B;
   font-weight: bold;
   font-size: 24px;
@@ -147,7 +152,7 @@ html {
 
 .list_group {
   display: flex;
-  margin:0 20px ;
+  margin: 0 20px;
   width: 100%;
   max-width: 390px;
 }
@@ -161,11 +166,15 @@ html {
 .list_group_right {
   flex: 1;
   width: 50%;
+  margin-left: 15px;
 }
 
-.list_group_left1, .list_group_left2, .list_group_right1, .list_group_right2 {
+.list_group_left1,
+.list_group_left2,
+.list_group_right1,
+.list_group_right2 {
   /* background-color: #cfc6b778; */
-  border-radius: 5px;
+  /* border-radius: 5px; */
   height: 70px;
   margin-bottom: 15px;
 }
@@ -181,11 +190,12 @@ html {
 .list_group p {
   color: #563C4B;
   font-size: 12px;
-  padding-left:6px;
+  padding-left: 6px;
   padding-top: 10px;
 }
 
-.workexp, .works {
+.workexp,
+.works {
   background-color: #fff;
   box-shadow: 3px 3px 3px #cfc6b778;
   height: 400px;
@@ -201,68 +211,82 @@ html {
 
 }
 
-  /* footer  */
+/* footer  */
 
 .footer {
   width: 100%;
   max-width: 780px;
   height: 235px;
   background-color: #563C4B;
-  
-  
+
+
 }
 
-@media(max-width:720px){
+@media(max-width:720px) {
   .main {
     margin: 0;
   }
+
   .group {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .left{
+
+  .left {
     width: 100%;
     margin: 0 auto;
   }
+
   .left>.selfie {
     margin-top: 0;
     margin-right: 0;
   }
-  .right{
+
+  .right {
     width: 100%;
     margin-top: 25px;
+
     .about {
       height: 280px;
     }
 
   }
+
   .workexp {
     height: 515px;
   }
-  .workexp, .works {
+
+  .workexp,
+  .works {
     /* margin-left: 20px; */
     max-width: 270px;
-    
+
   }
+
   .left>.info {
     margin-right: 0;
     padding-left: 45px;
   }
+
   .list_group {
     max-width: 270px;
     display: inline-block;
     justify-content: center;
     line-height: 18px;
-    .list_group_left, .list_group_right {
+
+    .list_group_left,
+    .list_group_right {
       width: 100%;
     }
   }
+
   footer {
     padding-top: 200px;
+
     .footer {
       height: 490px;
     }
-    
+
   }
 }
