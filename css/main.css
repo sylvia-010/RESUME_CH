@@ -166,7 +166,6 @@ ul {
 .list_group_right {
   flex: 1;
   width: 50%;
-  margin-left: 15px;
 }
 
 .list_group_left1,
@@ -248,7 +247,7 @@ ul {
     margin-top: 25px;
 
     .about {
-      height: 280px;
+      height: 305px;
     }
 
   }
